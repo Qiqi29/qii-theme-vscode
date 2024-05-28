@@ -3,7 +3,7 @@
   "displayName": "Qii Theme",
   "description": "一个基于 One Monokai Theme 修改的主题。",
   "version": "0.1.0",
-  "author": "qiqi29",
+  "publisher": "qiqi29",
   "icon": "/image/qii-theme-logo.png",
   "engines": {
     "vscode": "^1.88.0"
@@ -11,6 +11,12 @@
   "categories": [
     "Themes"
   ],
+  "keywords": [
+		"theme",
+		"qii",
+		"light",
+		"dark"
+	],
   "contributes": {
     "themes": [
       {
