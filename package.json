@@ -2,7 +2,7 @@
   "name": "qii-theme",
   "displayName": "Qii Theme",
   "description": "一个基于 One Monokai Theme 修改的主题。",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "qiqi29",
   "icon": "/image/qii-theme-logo.png",
   "engines": {
@@ -25,6 +25,9 @@
         "path": "./themes/qii-dark-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "build": "vsce package"
   },
   "license": "MIT"
 }
