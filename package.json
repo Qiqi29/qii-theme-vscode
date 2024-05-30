@@ -1,10 +1,10 @@
 {
   "name": "qii-theme",
   "displayName": "Qii Theme",
-  "description": "一个基于 One Monokai Theme 修改的主题。",
-  "version": "0.1.1",
+  "description": "一个 VSCode 主题。",
+  "version": "0.1.2",
   "publisher": "qiqi29",
-  "icon": "/image/qii-theme-logo.png",
+  "icon": "/image/logo.png",
   "engines": {
     "vscode": "^1.88.0"
   },

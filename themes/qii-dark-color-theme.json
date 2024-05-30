@@ -94,6 +94,8 @@
 		"statusBar.border": "#222226",                       // 状态栏边框颜色
 		"statusBar.debuggingBackground": "#41ab84",          // 程序调试时背景色
 		"statusBar.debuggingForeground": "#101214",          // 程序调试时前景色
+    "statusBar.noFolderBackground": "#191A1E",           // 未打开文件夹背景色 
+    "statusBar.noFolderForeground": "#74757b",           // 未打开文件夹前景色
 		// 菜单栏
 		"menu.background": "#101011",                        // 菜单栏背景色
 		"menu.foreground": "#888c96",                        // 菜单栏前景色
