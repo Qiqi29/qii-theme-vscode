@@ -6,18 +6,18 @@
     "foreground": "#9A9A9A",                             // 整体前景色
     "disabledForeground": "#757575",                     // 禁用状态前景色
 		// 编辑器
-		"editor.background": "#191A1E",                      // 背景色
-		"editorGroup.border": "#202125",                     // 分割线颜色
+		"editor.background": "#1b1c20",                      // 背景色
+		"editorGroup.border": "#232428",                     // 分割线颜色
 		"editorGroup.dropBackground": "#cddeff15",           // 拖动时背景色
 		"editorCursor.foreground": "#4fcc9e",                // 光标颜色
 		"editorWhitespace.foreground": "#337663",            // 空白字符颜色
 		"editorIndentGuide.background1": "#292b30",          // 缩进参考线颜色
 		"editorHoverWidget.background": "#101011",           // 悬停提示背景色
 		"editorHoverWidget.border": "#212327",               // 悬停提示边框色
-		"editorLineNumber.foreground": "#404146",            // 行号颜色
-		"editorLineNumber.activeForeground": "#94959A",      // 当前行号颜色
+		"editorLineNumber.foreground": "#5f6065",            // 行号颜色
+		"editorLineNumber.activeForeground": "#babbc0",      // 当前行号颜色
 		"editor.selectionBackground": "#283934",             // 选中内容背景色
-		"editor.lineHighlightBackground": "#23252b",         // 光标所在行高亮色
+		"editor.lineHighlightBackground": "#292b31",         // 光标所在行高亮色
 		"editor.selectionHighlightBackground": "#adb0b810",  // 与所选内容相同的背景色
 		"editor.selectionHighlightBorder": "#c7cbd180",      // 与所选内容相同的边框色
 		"editor.wordHighlightTextBackground": "#FFFFFF10",   // 字符匹配背景色
@@ -27,28 +27,28 @@
 		"editorWidget.background": "#101011",                // 组件背景色
 		"editorSuggestWidget.background": "#101011",         // 建议小组将背景色
 		"editor.foldBackground": "#292a3080",                // 折叠行背景色
-		"scrollbar.shadow": "#191A1Ecc",                     // 阴影色
-		"editorGroup.emptyBackground": "#191A1E",            // 空编辑器背景色
+		"scrollbar.shadow": "#1b1c20cc",                     // 阴影色
+		"editorGroup.emptyBackground": "#1b1c20",            // 空编辑器背景色
     "sash.hoverBorder": "#65bd9caa",                     // 拖动编辑器的反馈颜色
 		// 标题栏
-		"titleBar.activeBackground": "#191A1E",              // 背景色
-		"titleBar.activeForeground": "#74757b",              // 前景色
-		"titleBar.border": "#191A1E",                        // 分割线颜色
-		"titleBar.inactiveBackground": "#191A1E",            // 非活动状态背景色
-		"titleBar.inactiveForeground": "#55565a",            // 非活动状态前景色
+		"titleBar.activeBackground": "#1b1c20",              // 背景色
+		"titleBar.activeForeground": "#9fa0a6",              // 前景色
+		"titleBar.border": "#1b1c20",                        // 分割线颜色
+		"titleBar.inactiveBackground": "#1b1c20",            // 非活动状态背景色
+		"titleBar.inactiveForeground": "#7e7f84",            // 非活动状态前景色
 		// 选项卡
-		"editorGroupHeader.tabsBackground": "#191A1E",       // 背景色
-		"editorGroupHeader.tabsBorder": "#222226",           // 分割线颜色
-		"tab.border": "#191A1E",                             // 左右分割线颜色
-		"tab.hoverBackground": "#202125",                    // 鼠标悬停背景颜色
-		"tab.inactiveBackground": "#191A1E",                 // 未选中背景色
-		"tab.activeBackground": "#202125",                   // 选中背景色
+		"editorGroupHeader.tabsBackground": "#1b1c20",       // 背景色
+		"editorGroupHeader.tabsBorder": "#232428",           // 分割线颜色
+		"tab.border": "#1b1c20",                             // 左右分割线颜色
+		"tab.hoverBackground": "#232428",                    // 鼠标悬停背景颜色
+		"tab.inactiveBackground": "#1b1c20",                 // 未选中背景色
+		"tab.activeBackground": "#232428",                   // 选中背景色
 		"tab.activeBorder": "#65bd9c",                       // 选中状态下方边框颜色
 		// 滚动条
 		"scrollbarSlider.background": "#4a4e5760",           // 滚动条颜色
 		"scrollbarSlider.hoverBackground": "#4c505680",      // 滚动条悬停颜色
 		"scrollbarSlider.activeBackground": "#53565daa",     // 滚动条点击颜色
-		"editorOverviewRuler.border": "#191A1E",             // 滚动条边框颜色
+		"editorOverviewRuler.border": "#1b1c20",             // 滚动条边框颜色
     // 其他
 		"focusBorder": "#FFFFFF00",                          // 焦点元素的边框颜色
 		"icon.foreground": "#FFFFFF90",                      // 图标的默认颜色
@@ -57,7 +57,7 @@
 		"button.foreground": "#101214",                      // 按钮前景色
 		"button.hoverBackground": "#399a77",                 // 按钮悬停背景色
 		// 输入框
-		"input.background": "#191A1E",                       // 输入框背景
+		"input.background": "#1b1c20",                       // 输入框背景
 		"input.border": "#25262A",                           // 输入框边框
 		// 列表
 		"list.focusBackground": "#212328",                   // 列表中焦点项背景色
@@ -75,35 +75,35 @@
 		"dropdown.foreground": "#aaabae",                    // 下拉列表前景色
 		"dropdown.border": "#222226",                        // 下拉列表边框
 		// 活动栏
-		"activityBar.background": "#191A1E",                 // 活动栏背景色
-		"activityBar.foreground": "#bebec1",                 // 活动栏前景色
-		"activityBar.border": "#202125",                     // 活动栏边框颜色
-		"activityBar.inactiveForeground": "#4e4f54",         // 活动栏非活动状态前景色
+		"activityBar.background": "#1b1c20",                 // 活动栏背景色
+		"activityBar.foreground": "#e6e7ec",                 // 活动栏前景色
+		"activityBar.border": "#232428",                     // 活动栏边框颜色
+		"activityBar.inactiveForeground": "#7e7f84",         // 活动栏非活动状态前景色
 		"activityBar.activeBorder": "#65bd9c",               // 活动栏指示器边框颜色
 		"activityBarBadge.background": "#41ab84",            // 活动栏通知徽标背景色
 		"activityBarBadge.foreground": "#101214",            // 活动栏通知徽标前景色
 		// 侧边栏
-		"sideBar.background": "#151619",                     // 侧边栏背景色
+		"sideBar.background": "#16171a",                     // 侧边栏背景色
 		"sideBar.border": "#222226",                         // 侧边栏边框颜色
-		"sideBarSectionHeader.background": "#191A1E",        // 侧边栏分组标题背景色
+		"sideBarSectionHeader.background": "#1b1c20",        // 侧边栏分组标题背景色
 		// 迷你地图
-		"minimap.background" : "#191A1Ea0",                  // 小地图背景色
+		"minimap.background" : "#1b1c20a0",                  // 小地图背景色
 		// 底部状态栏
-		"statusBar.background": "#191A1E",                   // 状态栏背景色
-		"statusBar.foreground": "#74757b",                   // 状态栏前景色
+		"statusBar.background": "#1b1c20",                   // 状态栏背景色
+		"statusBar.foreground": "#7e7f84",                   // 状态栏前景色
 		"statusBar.border": "#222226",                       // 状态栏边框颜色
 		"statusBar.debuggingBackground": "#41ab84",          // 程序调试时背景色
 		"statusBar.debuggingForeground": "#101214",          // 程序调试时前景色
-    "statusBar.noFolderBackground": "#191A1E",           // 未打开文件夹背景色 
+    "statusBar.noFolderBackground": "#1b1c20",           // 未打开文件夹背景色 
     "statusBar.noFolderForeground": "#74757b",           // 未打开文件夹前景色
 		// 菜单栏
 		"menu.background": "#101011",                        // 菜单栏背景色
-		"menu.foreground": "#888c96",                        // 菜单栏前景色
+		"menu.foreground": "#7e7f84",                        // 菜单栏前景色
 		"menu.border": "#1c1e21",                            // 菜单栏边框颜色
-		"menu.selectionBackground": "#202125",               // 菜单栏选中项背景色
+		"menu.selectionBackground": "#232428",               // 菜单栏选中项背景色
 		"menu.separatorBackground": "#1c1e21",               // 菜单栏中分隔线颜色
     // 底部面板
-		"panel.background" : "#151619",                      // 面板背景颜色
+		"panel.background" : "#16171a",                      // 面板背景颜色
 		"panel.border" : "#222226",                          // 面板边框颜色
 		"badge.background": "#2e2f31",                       // 徽章背景色
     "badge.foreground": "#b2b4b7",                       // 徽章前景色
@@ -144,7 +144,7 @@
 				"punctuation.definition.comment",
 			],
 			"settings": {
-				"foreground": "#606064"
+				"foreground": "#87878c"
 			}
 		},
 		{
