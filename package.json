@@ -1,33 +1,33 @@
 {
-  "name": "qii-theme",
-  "displayName": "Qii Theme",
-  "description": "一个 VSCode 主题。",
-  "version": "0.1.5",
-  "publisher": "qiqi29",
-  "icon": "/image/logo.png",
-  "engines": {
-    "vscode": "^1.88.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "keywords": [
-		"theme",
-		"qii",
-		"light",
-		"dark"
-	],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Qii Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/qii-dark-color-theme.json"
-      }
-    ]
-  },
-  "scripts": {
-    "build": "vsce package"
-  },
-  "license": "MIT"
+    "name": "qii-theme",
+    "displayName": "Qii Theme",
+    "description": "一个 VSCode 主题。",
+    "version": "0.1.5",
+    "publisher": "qiqi29",
+    "icon": "/image/logo.png",
+    "engines": {
+        "vscode": "^1.88.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "qii",
+        "light",
+        "dark"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Qii Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/qii-dark-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "vsce package"
+    },
+    "license": "MIT"
 }

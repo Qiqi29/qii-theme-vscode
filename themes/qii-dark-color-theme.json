@@ -3,8 +3,8 @@
   "type": "dark",
 	"colors": {
     // 基本
-    "foreground": "#A7AEBB",                             // 整体前景色
-    "disabledForeground": "#CED0D6",                     // 禁用状态前景色
+    "foreground": "#E0E1E4",                             // 整体前景色
+    "disabledForeground": "#b1b3ba",                     // 禁用状态前景色
 		// 编辑器
 		"editor.background": "#23262D",                      // 编辑器背景色
 		"editorGroup.border": "#333841",                     // 分割线颜色
