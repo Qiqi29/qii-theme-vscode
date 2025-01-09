@@ -12,7 +12,7 @@
         "editorGroup.dropBackground": "#cddeff15",          // 拖动时背景色
         "editorCursor.foreground": "#65bd9c",               // 光标颜色
         "editorWhitespace.foreground": "#376e5f",           // 空白字符颜色
-        "editorIndentGuide.background1": "#232529",         // 缩进参考线颜色
+        "editorIndentGuide.background1": "#FFFFFF0C",       // 缩进参考线颜色
         "editorLineNumber.foreground": "#636469",           // 行号颜色
         "editorLineNumber.activeForeground": "#E0E1E4",     // 当前行号颜色
         "editor.selectionBackground": "#23483c",            // 选中内容背景色
@@ -47,17 +47,19 @@
         "tab.border": "#191A1C",                        // 左右边框颜色
         "tab.activeBorder": "#3DB086",                  // 选中状态下边框颜色
 
-        // 列表
+        // 列表和树
         "list.activeSelectionBackground": "#2a2c32",    // 列表中已选项背景色
         "list.inactiveSelectionBackground": "#2a2c32",  // 列表中已选项非活动背景色
         "list.activeSelectionForeground": "#E0E1E4",    // 列表中已选项前景色
         "list.inactiveSelectionForeground": "#E0E1E4",  // 列表中已选项非活动前景色
+        "list.dropBackground": "#192e26",               // 列表中拖拽背景色
         "list.focusBackground": "#313640",              // 列表中焦点项背景色
         "list.focusForeground": "#A7AEBB",              // 列表中焦点项前景色
         "list.focusOutline": "#424650",                 // 列表中焦点项边框色
         "list.hoverBackground": "#222428",              // 列表中鼠标悬停背景色
         "list.hoverForeground": "#E0E1E4",              // 列表中鼠标悬停前景色
         "list.highlightForeground": "#E0E1E4",          // 列表中搜索匹配高亮色
+        "tree.indentGuidesStroke": "#FFFFFF00",         // 列表树中缩进参考线颜色
 
         // 左侧活动栏
         "activityBar.background": "#0A0A0A",            // 活动栏背景色
@@ -79,7 +81,7 @@
         "statusBar.foreground": "#909296",              // 状态栏前景色
         "statusBar.border": "#0A0A0A",                  // 状态栏边框颜色
         "statusBar.debuggingBackground": "#3DB086",     // 程序调试时背景色
-        "statusBar.debuggingForeground": "#101214",     // 程序调试时前景色
+        "statusBar.debuggingForeground": "#050505",     // 程序调试时前景色
         "statusBar.noFolderBackground": "#0A0A0A",      // 未打开文件夹背景色
         "statusBar.noFolderForeground": "#E0E1E4",      // 未打开文件夹前景色
 
@@ -103,17 +105,19 @@
         "dropdown.border": "#0A0A0A",       // 下拉列表边框
 
         // 滚动条
-        "scrollbarSlider.background": "#383b4160",          // 滚动条颜色
-        "scrollbar.shadow": "#0A0A0A80",                    // 滚动条阴影
-        "scrollbarSlider.hoverBackground": "#383b4170",     // 滚动条悬停颜色
-        "scrollbarSlider.activeBackground": "#383b4190",    // 滚动条点击颜色
+        "scrollbarSlider.background": "#FFFFFF15",          // 滚动条颜色
+        "scrollbarSlider.hoverBackground": "#FFFFFF1A",     // 滚动条悬停颜色
+        "scrollbarSlider.activeBackground": "#FFFFFF20",    // 滚动条点击颜色
         "editorOverviewRuler.border": "#191A1C",            // 滚动条边框颜色
+        "scrollbar.shadow": "#0A0A0A80",                    // 滚动条阴影
 
         // 小地图
         "minimap.background": "#191A1CEF",                  // 小地图背景色
-        "minimapSlider.background": "#383b4160",            // 小地图滑块颜色
-        "minimapSlider.hoverBackground": "#383b4170",       // 小地图滑块悬停颜色
-        "minimapSlider.activeBackground": "#383b4190",      // 小地图滑块点击颜色
+        "minimapSlider.background": "#FFFFFF15",            // 小地图滑块颜色
+        "minimapSlider.hoverBackground": "#FFFFFF1A",       // 小地图滑块悬停颜色
+        "minimapSlider.activeBackground": "#FFFFFF20",      // 小地图滑块点击颜色
+        "minimap.findMatchHighlight": "#3da27df0",          // 小地图搜索匹配颜色
+        "minimap.selectionHighlight": "#3da27dA0",          // 小地图选中文本背景色
 
         // 按钮
         "button.background": "#3da27d",         // 按钮背景色
@@ -135,7 +139,7 @@
         "terminal.ansiBlack": "#2d3139",
         "terminal.ansiBlue": "#85AAE5",
         "terminal.ansiGreen": "#9FC57C",
-        "terminal.ansiYellow": "#e0be6a",
+        "terminal.ansiYellow": "#e2b77e",
         "terminal.ansiCyan": "#73BAC2",
         "terminal.ansiMagenta": "#c589e0",
         "terminal.ansiRed": "#e06a86",
@@ -143,17 +147,18 @@
         "terminal.ansiBrightBlack": "#7f848e",
         "terminal.ansiBrightBlue": "#85AAE5",
         "terminal.ansiBrightGreen": "#9FC57C",
-        "terminal.ansiBrightYellow": "#e0be6a",
+        "terminal.ansiBrightYellow": "#e2b77e",
         "terminal.ansiBrightCyan": "#73BAC2",
         "terminal.ansiBrightMagenta": "#c589e0",
         "terminal.ansiBrightRed": "#e06a86",
         "terminal.ansiBrightWhite": "#d7dae0",
 
         // 括号颜色
-        "editorBracketHighlight.foreground1": "#dab159",
-        "editorBracketHighlight.foreground2": "#73BAC2",
-        "editorBracketHighlight.foreground3": "#85AAE5",
-        "editorBracketHighlight.foreground4": "#c589e0",
+        "editorBracketHighlight.foreground1": "#6eb0b8",
+        "editorBracketHighlight.foreground2": "#e2b77e",
+        "editorBracketHighlight.foreground3": "#a5c587",
+        "editorBracketHighlight.foreground4": "#83a5dc",
+        "editorBracketHighlight.foreground5": "#a68be4",
 
         /// 波浪线
         "editorInfo.foreground": "#6b99df",
@@ -178,18 +183,18 @@
                 "string.template"
             ],
             "settings": {
-                "foreground": "#e0b16a"
+                "foreground": "#e2b77e"
             }
         },
         {
             "name": "数字",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#9FC57C"
+                "foreground": "#e2b77e"
             }
         },
         {
-            "name": "嵌入式字符串 开始/结束",
+            "name": "嵌入式字符串 ${}",
             "scope": [
                 "string.embedded.begin",
                 "string.embedded.end",
@@ -197,7 +202,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#9FC57C"
+                "foreground": "#73BAC2"
             }
         },
         {
@@ -217,17 +222,17 @@
             }
         },
         {
-            "name": "类型 const/let",
+            "name": "类型 const/let/function",
             "scope": "storage.type",
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
             }
         },
         {
             "name": "内置常数  true/false",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
             }
         },
         {
@@ -237,7 +242,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
             }
         },
         {
@@ -248,7 +253,7 @@
             }
         },
         {
-            "name": "关键词 return/import/export",
+            "name": "关键词 if/for/return/import/export",
             "scope": [
                 "keyword",
                 "keyword.operator.logical",
@@ -259,7 +264,7 @@
             }
         },
         {
-            "name": "关键词 运算符 + - * / ...",
+            "name": "关键词 运算符 + - *",
             "scope": "keyword.operator",
             "settings": {
                 "foreground": "#e06a86"
@@ -273,7 +278,7 @@
             }
         },
         {
-            "name": "类 Promise/类名/...",
+            "name": "类 Promise/类名/Object",
             "scope": [
                 "entity.name.class",
                 "entity.name.module",
@@ -336,17 +341,17 @@
                 "function.support.core"
             ],
             "settings": {
-                "foreground": "#acc382"
+                "foreground": "#9bca9e"
             }
         },
         {
-            "name": "函数名",
+            "name": "函数名 / CSS函数",
             "scope": [
                 "entity.name.function",
                 "support.function"
             ],
             "settings": {
-                "foreground": "#acc382"
+                "foreground": "#9bca9e"
             }
         },
         {
@@ -358,7 +363,7 @@
             ],
             "settings": {
                 "fontStyle": "italic",
-                "foreground": "#c09ada"
+                "foreground": "#BDBEC2"
             }
         },
         {
@@ -375,7 +380,14 @@
                 "entity.name.tag.class.js"
             ],
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#78c2f4"
+            }
+        },
+        {
+            "name": "html 标签属性",
+            "scope": "entity.other.attribute-name",
+            "settings": {
+                "foreground": "#9bca9e"
             }
         },
         {
@@ -384,7 +396,7 @@
                 "punctuation.definition.tag",
             ],
             "settings": {
-                "foreground": "#999ba4"
+                "foreground": "#7b7d82"
             }
         },
         {
@@ -398,38 +410,7 @@
             }
         },
         {
-            "name": "html 标签属性",
-            "scope": "entity.other.attribute-name",
-            "settings": {
-                "foreground": "#acc382"
-            }
-        },
-        {
-            "name": "库常数 JSON/",
-            "scope": "support.constant",
-            "settings": {
-                "foreground": "#73BAC2"
-            }
-        },
-        {
-            "name": "库 类/类型",
-            "scope": [
-                "support.type",
-                "support.variable"
-            ],
-            "settings": {
-                "foreground": "#73BAC2"
-            }
-        },
-        {
-            "name": "Json",
-            "scope": "support.dictionary.json",
-            "settings": {
-                "foreground": "#73BAC2"
-            }
-        },
-        {
-            "name": "样式表属性名称",
+            "name": "CSS属性名称",
             "scope": [
                 "support.type.property-name.css",
                 "support.type.property-name.scss",
@@ -453,11 +434,11 @@
                 "entity.other.attribute-name.pseudo-element.sass"
             ],
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
             }
         },
         {
-            "name": "CSS样式表属性值",
+            "name": "CSS属性值",
             "scope": [
                 "support.constant.css",
                 "support.constant.scss",
@@ -465,11 +446,11 @@
                 "support.constant.sass"
             ],
             "settings": {
-                "foreground": "#acc382"
+                "foreground": "#9bca9e"
             }
         },
         {
-            "name": "CSS样式表变量",
+            "name": "CSS变量",
             "scope": [
                 "variable.css",
                 "variable.scss",
@@ -477,11 +458,11 @@
                 "variable.sass"
             ],
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
             }
         },
         {
-            "name": "CSS样式表变量字符串",
+            "name": "CSS变量字符串",
             "scope": [
                 "variable.css.string",
                 "variable.scss.string",
@@ -493,7 +474,7 @@
             }
         },
         {
-            "name": "样式表单元",
+            "name": "CSS单位（好像没用）",
             "scope": [
                 "unit.css",
                 "unit.scss",
@@ -505,7 +486,7 @@
             }
         },
         {
-            "name": "样式表函数",
+            "name": "CSS函数",
             "scope": [
                 "function.css",
                 "function.scss",
@@ -513,7 +494,31 @@
                 "function.sass"
             ],
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
+            }
+        },
+        {
+            "name": "库常数 JSON/",
+            "scope": "support.constant",
+            "settings": {
+                "foreground": "#6dbfc9"
+            }
+        },
+        {
+            "name": "库 类/类型",
+            "scope": [
+                "support.type",
+                "support.variable"
+            ],
+            "settings": {
+                "foreground": "#6dbfc9"
+            }
+        },
+        {
+            "name": "Json",
+            "scope": "support.dictionary.json",
+            "settings": {
+                "foreground": "#6dbfc9"
             }
         },
         {
@@ -538,10 +543,10 @@
             }
         },
         {
-            "name": "JSON 字符串",
+            "name": "JSON 键",
             "scope": "support.type.property-name.json",
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#7ac5cd"
             }
         },
         {
@@ -552,7 +557,7 @@
             }
         },
         {
-            "name": "diff.header",
+            "name": "差异: 标题",
             "scope": [
                 "meta.diff",
                 "meta.diff.header"
@@ -562,21 +567,21 @@
             }
         },
         {
-            "name": "diff.deleted",
+            "name": "差异: 删除",
             "scope": "markup.deleted",
             "settings": {
                 "foreground": "#e06a86"
             }
         },
         {
-            "name": "diff.inserted",
+            "name": "差异: 插入",
             "scope": "markup.inserted",
             "settings": {
-                "foreground": "#acc382"
+                "foreground": "#9bca9e"
             }
         },
         {
-            "name": "diff.changed",
+            "name": "差异: 变化",
             "scope": "markup.changed",
             "settings": {
                 "foreground": "#e0b16a"
@@ -595,14 +600,14 @@
             }
         },
         {
-            "name": "Markup: Emphasis",
+            "name": "Markdown: 强调",
             "scope": "markup.italic, markup.italic.markdown",
             "settings": {
                 "fontStyle": "italic"
             }
         },
         {
-            "name": "Markup: Punctuation",
+            "name": "Markdown: 标点符号",
             "scope": [
                 "punctuation.definition.italic.markdown",
                 "punctuation.definition.bold.markdown",
@@ -613,7 +618,7 @@
             }
         },
         {
-            "name": "Markup: Emphasis Punctuation",
+            "name": "Markdown: 强调标点符号",
             "scope": "punctuation.definition.italic.markdown",
             "settings": {
                 "fontStyle": "italic"
@@ -627,14 +632,14 @@
             }
         },
         {
-            "name": "Markup: Bold",
+            "name": "Markdown: 加粗",
             "scope": "markup.bold.markdown",
             "settings": {
                 "fontStyle": "bold"
             }
         },
         {
-            "name": "Markup: Heading",
+            "name": "Markdown: 标题",
             "scope": "markup.heading.markdown",
             "settings": {
                 "fontStyle": "bold",
@@ -642,14 +647,14 @@
             }
         },
         {
-            "name": "Markup: Quote",
+            "name": "Markdown: 引用",
             "scope": "markup.quote.markdown",
             "settings": {
                 "foreground": "#acc382"
             }
         },
         {
-            "name": "Markup: Separator",
+            "name": "Markdown: 分隔符",
             "scope": "meta.separator.markdown",
             "settings": {
                 "foreground": "#e06a86",
@@ -657,17 +662,17 @@
             }
         },
         {
-            "name": "Markup: Raw",
+            "name": "Markdown: 富文本",
             "scope": [
                 "markup.raw.inline.markdown",
                 "markup.raw.block.markdown"
             ],
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#6dbfc9"
             }
         },
         {
-            "name": "Markup: List Punctuation",
+            "name": "Markdown: 列表标点符号",
             "scope": "punctuation.definition.list_item.markdown",
             "settings": {
                 "fontStyle": "bold",
