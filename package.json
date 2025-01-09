@@ -2,7 +2,7 @@
     "name": "qii-theme",
     "displayName": "Qii Theme",
     "description": "一个 VSCode 主题。",
-    "version": "0.1.9",
+    "version": "0.2.0",
     "publisher": "qiqi29",
     "icon": "/image/logo.png",
     "engines": {

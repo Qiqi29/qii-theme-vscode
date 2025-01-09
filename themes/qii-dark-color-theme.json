@@ -625,7 +625,7 @@
             }
         },
         {
-            "name": "Markdown: Link",
+            "name": "Markdown: 链接",
             "scope": "markup.underline.link.markdown",
             "settings": {
                 "foreground": "#85AAE5"
@@ -643,7 +643,7 @@
             "scope": "markup.heading.markdown",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#e06a86"
+                "foreground": "#75a8f9"
             }
         },
         {
