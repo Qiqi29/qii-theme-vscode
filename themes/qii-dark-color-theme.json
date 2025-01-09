@@ -321,7 +321,7 @@
             "name": "继承类",
             "scope": "entity.other.inherited-class",
             "settings": {
-                "foreground": "#9FC57C"
+                "foreground": "#9bca9e"
             }
         },
         {
