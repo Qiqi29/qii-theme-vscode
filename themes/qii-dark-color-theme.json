@@ -154,11 +154,11 @@
         "terminal.ansiBrightWhite": "#d7dae0",
 
         // 括号颜色
-        "editorBracketHighlight.foreground1": "#6eb0b8",
+        "editorBracketHighlight.foreground1": "#58b5bf",
         "editorBracketHighlight.foreground2": "#e2b77e",
         "editorBracketHighlight.foreground3": "#a5c587",
-        "editorBracketHighlight.foreground4": "#83a5dc",
-        "editorBracketHighlight.foreground5": "#a68be4",
+        "editorBracketHighlight.foreground4": "#ba8bcf",
+        "editorBracketHighlight.foreground5": "#88adea",
 
         /// 波浪线
         "editorInfo.foreground": "#6b99df",
@@ -190,7 +190,7 @@
             "name": "数字",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#e2b77e"
+                "foreground": "#73BAC2"
             }
         },
         {
