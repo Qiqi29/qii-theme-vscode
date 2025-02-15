@@ -126,7 +126,7 @@
         "button.foreground": "#FAFAFC",         // 按钮前景色
 
         // 输入框
-        "input.background": "#8d98ad15",    // 输入框背景色
+        "input.background": "#1E2024",      // 输入框背景色
         "input.foreground": "#E0E1E4",      // 输入框前景色
         "input.border": "#8490aa30",        // 输入框边框色
 

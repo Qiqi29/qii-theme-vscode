@@ -22,3 +22,6 @@
 ## 安装你的扩展
 * 要开始将您的扩展与Visual Studio Code一起使用，请将其复制到 `C: 用户/../.vscode/extensions` 文件夹并重新启动Code。
 * 要与全世界分享您的扩展，请阅读有关发布扩展的 https://code.visualstudio.com/docs。
+
+## 打包扩展
+运行 `vsce package` 命令进行打包扩展。
