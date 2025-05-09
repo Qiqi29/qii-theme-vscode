@@ -2,7 +2,7 @@
     "name": "qii-theme",
     "displayName": "Qii Theme",
     "description": "一个 VSCode 主题。",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "publisher": "qiqi29",
     "icon": "/image/logo.png",
     "engines": {
@@ -12,9 +12,8 @@
         "Themes"
     ],
     "keywords": [
-        "theme",
         "qii",
-        "light",
+        "theme",
         "dark"
     ],
     "contributes": {

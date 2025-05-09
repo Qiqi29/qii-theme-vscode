@@ -1,0 +1,34 @@
+@import '../vars.css';
+
+.button {
+    border: none;
+    height: 20px;
+    padding: 0 16px;
+}
+
+.button-primary {
+    background-color: blue;
+    color: #FFF;
+}
+
+.button:hover {
+    background-image: linear-gradient(#000, #FFF)
+}
+
+input[type="email"] {
+    padding: 15px;
+}
+
+::placeholder {
+    color: red;
+}
+
+@media (min-width: 1280px) {
+    .button {
+        width: 50px;
+    }
+}
+
+#banner {
+    margin: 0 auto;
+}

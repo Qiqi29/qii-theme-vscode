@@ -1,7 +1,10 @@
 # Qii Theme
 
-## 欢迎使用
-一个 VSCode 主题，基于 One Monokai Theme 主题修改而来。
+## 哈喽鸭！
+这是一个 VSCode 暗色主题，使用青绿色当作主色，代码低饱和色彩、轻对比度，灰常的耐看！
 
-本主题主要由我自己使用，因此可能会经常修改配色。
 
+## 主题搭配
+- 字体：`JetBrains Mono NL, 等距更纱黑体 SC`
+- 文件图标：`Material Icon Theme`
+- 软件图标：`Fluent Icons`
