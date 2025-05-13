@@ -155,10 +155,10 @@
 
         // 括号颜色
         "editorBracketHighlight.foreground1": "#f0d46e",
-        "editorBracketHighlight.foreground2": "#9fc37d",
-        "editorBracketHighlight.foreground3": "#83c5ff",
-        "editorBracketHighlight.foreground4": "#d091ed",
-        "editorBracketHighlight.foreground5": "#6dd2cc",
+        "editorBracketHighlight.foreground2": "#bfe69b",
+        "editorBracketHighlight.foreground3": "#a7ccff",
+        "editorBracketHighlight.foreground4": "#e1aafa",
+        "editorBracketHighlight.foreground5": "#89d9d4",
 
         /// 波浪线
         "editorInfo.foreground": "#83c5ff",
