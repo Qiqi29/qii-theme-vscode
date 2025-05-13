@@ -314,16 +314,24 @@
             }
         },
         {
-            "name": "类名 / Class Promise Object",
+            "name": "类 名称 / Class",
+            "scope": [
+                "entity.name.type",
+            ],
+            "settings": {
+                "foreground": "#e4bc77"
+            }
+        },
+        {
+            "name": "内置类名 / Promise Object",
             "scope": [
                 "entity.name.class",
                 "entity.name.module",
-                "entity.name.type",
                 "storage.identifier",
                 "support.class"
             ],
             "settings": {
-                "foreground": "#e4bc77"
+                "foreground": "#84b3ff"
             }
         },
         {
