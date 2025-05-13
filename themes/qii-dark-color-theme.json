@@ -23,8 +23,8 @@
         "editor.hoverHighlightBackground": "#36484580",     // 突出悬停的字词背景色
         "editor.wordHighlightBackground": "#FFFFFF20",      // 单词突出显示背景色
         "editor.wordHighlightBorder": "#FFFFFF80",          // 单词突出显示边框色
-        "editorHoverWidget.background": "#27282C",          // 悬停提示背景色
-        "editorHoverWidget.border": "#2f3136",              // 悬停提示边框色
+        "editorHoverWidget.background": "#17181A",          // 悬停提示背景色
+        "editorHoverWidget.border": "#363739",              // 悬停提示边框色
         "editorWidget.background": "#27282C",               // 组件背景色
         "editorSuggestWidget.background": "#27282C",        // 建议组件背景色
         "editor.foldBackground": "#27282D80",               // 折叠行背景色
@@ -137,37 +137,37 @@
         // 终端代码颜色
         "terminal.foreground": "#b2b4b7",
         "terminal.ansiBlack": "#2d3139",
-        "terminal.ansiBlue": "#7FAAEF",
+        "terminal.ansiBlue": "#84b3ff",
         "terminal.ansiGreen": "#9FC57C",
         "terminal.ansiYellow": "#e2b77e",
         "terminal.ansiCyan": "#73BAC2",
         "terminal.ansiMagenta": "#c589e0",
-        "terminal.ansiRed": "#e06a86",
+        "terminal.ansiRed": "#f37a94",
         "terminal.ansiWhite": "#d7dae0",
         "terminal.ansiBrightBlack": "#7f848e",
-        "terminal.ansiBrightBlue": "#7FAAEF",
+        "terminal.ansiBrightBlue": "#84b3ff",
         "terminal.ansiBrightGreen": "#9FC57C",
         "terminal.ansiBrightYellow": "#e2b77e",
         "terminal.ansiBrightCyan": "#73BAC2",
         "terminal.ansiBrightMagenta": "#c589e0",
-        "terminal.ansiBrightRed": "#e06a86",
+        "terminal.ansiBrightRed": "#f37a94",
         "terminal.ansiBrightWhite": "#d7dae0",
 
         // 括号颜色
-        "editorBracketHighlight.foreground1": "#64bcb6",
+        "editorBracketHighlight.foreground1": "#f0d46e",
         "editorBracketHighlight.foreground2": "#9fc37d",
-        "editorBracketHighlight.foreground3": "#e2b77e",
-        "editorBracketHighlight.foreground4": "#88adea",
-        "editorBracketHighlight.foreground5": "#ba8bcf",
+        "editorBracketHighlight.foreground3": "#83c5ff",
+        "editorBracketHighlight.foreground4": "#d091ed",
+        "editorBracketHighlight.foreground5": "#6dd2cc",
 
         /// 波浪线
-        "editorInfo.foreground": "#6b99df",
+        "editorInfo.foreground": "#83c5ff",
         "editorError.foreground": "#ff7e7e",
-        "editorWarning.foreground": "#f3da88",
+        "editorWarning.foreground": "#f0d46e",
     },
     "tokenColors": [
         {
-            "name": "注释",
+            "name": "注释 / 注释的符号",
             "scope": [
                 "comment",
                 "punctuation.definition.comment",
@@ -177,24 +177,75 @@
             }
         },
         {
-            "name": "字符串",
+            "name": "字符串 / 模板字符串",
             "scope": [
                 "string",
-                "string.template"
+                "string.quoted"
             ],
             "settings": {
-                "foreground": "#e2b77e"
+                "foreground": "#c2e095"
             }
         },
         {
             "name": "数字",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#e4bc77"
             }
         },
         {
-            "name": "嵌入式字符串 ${}",
+            "name": "数学符号 / Math",
+            "scope": "support.constant.math",
+            "settings": {
+                "foreground": "#e4bc77"
+            }
+        },
+        {
+            "name": "内置常数 / true false null..",
+            "scope": "constant.language",
+            "settings": {
+                "foreground": "#63c0cd"
+            }
+        },
+        {
+            "name": "用户定义常量 / CSS颜色 正则",
+            "scope": [
+                "constant.character",
+                "constant.other"
+            ],
+            "settings": {
+                "foreground": "#63c0cd"
+            }
+        },
+        {
+            "name": "转义字符 / \n \t",
+            "scope": [
+                "constant.character.escape",
+            ],
+            "settings": {
+                "foreground": "#e4bc77"
+            }
+        },
+        {
+            "name": "正则表达式",
+            "scope": [
+                "string.regexp", 
+            ],
+            "settings": {
+                "foreground": "#c2e095"
+            }
+        },
+        {
+            "name": "正则表达式匹配符 / i g",
+            "scope": [
+                "string.regexp keyword.other"
+            ],
+            "settings": {
+                "foreground": "#f37a94"
+            }
+        },
+        {
+            "name": "模板字符串符号 / ${..}",
             "scope": [
                 "string.embedded.begin",
                 "string.embedded.end",
@@ -202,11 +253,11 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#73BAC2"
+                "foreground": "#63c0cd"
             }
         },
         {
-            "name": "默认嵌入颜色 .?:",
+            "name": "嵌入式代码符号 / . ? :",
             "scope": [
                 "punctuation.section.embedded.begin.js",
                 "punctuation.section.embedded.end.js",
@@ -218,67 +269,50 @@
                 "meta.brace"
             ],
             "settings": {
-                "foreground": "#828283"
+                "foreground": "#989ca6"
             }
         },
         {
-            "name": "类型 const/let/function",
+            "name": "类型 / const let function class",
             "scope": "storage.type",
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
-            "name": "内置常数  true/false",
-            "scope": "constant.language",
-            "settings": {
-                "foreground": "#6dbfc9"
-            }
-        },
-        {
-            "name": "自定义常数  CSS颜色代码/正则",
-            "scope": [
-                "constant.character",
-                "constant.other"
-            ],
-            "settings": {
-                "foreground": "#6dbfc9"
-            }
-        },
-        {
-            "name": "语言变量  this/super",
+            "name": "语言变量 / this super",
             "scope": "variable.language",
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#f37a94"
             }
         },
         {
-            "name": "关键词 if/for/return/import/export",
+            "name": "关键词 / if for return import export try await",
             "scope": [
                 "keyword",
                 "keyword.operator.logical",
                 "keyword.operator.constructor"
             ],
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#f37a94"
             }
         },
         {
-            "name": "关键词 运算符 + - *",
+            "name": "运算符 / + - * == typeof ...",
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#f37a94"
             }
         },
         {
-            "name": "存储 extends",
+            "name": "存储 / extends",
             "scope": "storage",
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#f37a94"
             }
         },
         {
-            "name": "类 类名/Promise/Object",
+            "name": "类名 / Class Promise Object",
             "scope": [
                 "entity.name.class",
                 "entity.name.module",
@@ -287,14 +321,29 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#7FAAEF"
+                "foreground": "#e4bc77"
+            }
+        },
+        {
+            "name": "继承的类",
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "foreground": "#9bca9e"
+            }
+        },
+        {
+            "name": "定义常量",
+            "scope": [
+                "variable.other.constant",
+            ],
+            "settings": {
+                "foreground": "#84b3ff"
             }
         },
         {
             "name": "变量对象",
             "scope": [
                 "variable.other.object",
-                "variable.other.constant",
                 "variable.other.global",
                 "variable.other.readwrite.class",
                 "variable.other.readwrite.instance",
@@ -303,7 +352,7 @@
                 "variable.readwrite.other.block"
             ],
             "settings": {
-                "foreground": "#7FAAEF"
+                "foreground": "#C6C7CD"
             }
         },
         {
@@ -318,10 +367,12 @@
             }
         },
         {
-            "name": "继承类",
-            "scope": "entity.other.inherited-class",
+            "name": "其他变量",
+            "scope": [
+                "variable.other.object.property"
+            ],
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#6ebff2"
             }
         },
         {
@@ -331,7 +382,7 @@
                 "storage.modifier.package"
             ],
             "settings": {
-                "foreground": "#75A3EE"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -351,7 +402,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -367,13 +418,6 @@
             }
         },
         {
-            "name": "函数调用",
-            "scope": "entity.name.function-call",
-            "settings": {
-                "foreground": "#bfadab"
-            }
-        },
-        {
             "name": "html 标签名称",
             "scope": [
                 "entity.name.tag",
@@ -384,29 +428,30 @@
             }
         },
         {
-            "name": "html 标签属性",
+            "name": "html css 标签属性",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#ebc482"
             }
         },
         {
             "name": "HTML 标签括号",
             "scope": [
-                "punctuation.definition.tag",
+                "punctuation.definition.tag", 
+                "meta.tag"
             ],
             "settings": {
-                "foreground": "#8a8c93"
+                "foreground": "#989ca6"
             }
         },
         {
-            "name": "html 标签类别和ID",
+            "name": "html 标签 ID",
             "scope": [
                 "entity.name.tag.class",
                 "entity.name.tag.id"
             ],
             "settings": {
-                "foreground": "#7FAAEF"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -434,7 +479,7 @@
                 "entity.other.attribute-name.pseudo-element.sass"
             ],
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
@@ -458,7 +503,7 @@
                 "variable.sass"
             ],
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
@@ -482,7 +527,7 @@
                 "unit.sass"
             ],
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#f37a94"
             }
         },
         {
@@ -494,14 +539,14 @@
                 "function.sass"
             ],
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
             "name": "库常数 JSON",
             "scope": "support.constant",
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
@@ -511,14 +556,14 @@
                 "support.variable"
             ],
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
             "name": "Json",
             "scope": "support.dictionary.json",
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
@@ -553,7 +598,7 @@
             "name": "链接",
             "scope": "string.detected-link",
             "settings": {
-                "foreground": "#7FAAEF"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -570,7 +615,7 @@
             "name": "差异: 删除",
             "scope": "markup.deleted",
             "settings": {
-                "foreground": "#e06a86"
+                "foreground": "#f37a94"
             }
         },
         {
@@ -628,7 +673,7 @@
             "name": "Markdown: 链接",
             "scope": "markup.underline.link.markdown",
             "settings": {
-                "foreground": "#7FAAEF"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -657,7 +702,7 @@
             "name": "Markdown: 分隔符",
             "scope": "meta.separator.markdown",
             "settings": {
-                "foreground": "#e06a86",
+                "foreground": "#f37a94",
                 "fontStyle": "bold"
             }
         },
@@ -668,7 +713,7 @@
                 "markup.raw.block.markdown"
             ],
             "settings": {
-                "foreground": "#6dbfc9"
+                "foreground": "#63c0cd"
             }
         },
         {
