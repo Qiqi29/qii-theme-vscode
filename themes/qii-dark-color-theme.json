@@ -139,7 +139,7 @@
         "terminal.foreground": "#b2b4b7",
         "terminal.ansiBlack": "#2d3139",
         "terminal.ansiBlue": "#84b3ff",
-        "terminal.ansiGreen": "#9FC57C",
+        "terminal.ansiGreen": "#b8d996",
         "terminal.ansiYellow": "#e2b77e",
         "terminal.ansiCyan": "#73BAC2",
         "terminal.ansiMagenta": "#c589e0",
@@ -147,7 +147,7 @@
         "terminal.ansiWhite": "#d7dae0",
         "terminal.ansiBrightBlack": "#7f848e",
         "terminal.ansiBrightBlue": "#84b3ff",
-        "terminal.ansiBrightGreen": "#9FC57C",
+        "terminal.ansiBrightGreen": "#b8d996",
         "terminal.ansiBrightYellow": "#e2b77e",
         "terminal.ansiBrightCyan": "#73BAC2",
         "terminal.ansiBrightMagenta": "#c589e0",
@@ -155,21 +155,21 @@
         "terminal.ansiBrightWhite": "#d7dae0",
 
         // 括号颜色
-        "editorBracketHighlight.foreground1": "#a7dfff",
-        "editorBracketHighlight.foreground2": "#fdbf90",
+        "editorBracketHighlight.foreground1": "#9cceec",
+        "editorBracketHighlight.foreground2": "#ecbb96",
         "editorBracketHighlight.foreground3": "#bbe097",
         "editorBracketHighlight.foreground4": "#89d9d4",
-        "editorBracketHighlight.foreground5": "#efd579",
+        "editorBracketHighlight.foreground5": "#e9d281",
         "editorBracketHighlight.foreground6": "#e1aafa",
 
-        /// 波浪线
+        // 波浪线
         "editorInfo.foreground": "#83c5ff",
         "editorError.foreground": "#ff7e7e",
         "editorWarning.foreground": "#f0d46e",
     },
     "tokenColors": [
         {
-            "name": "注释 / 注释的符号",
+            "name": "注释 / 注释符号",
             "scope": [
                 "comment",
                 "punctuation.definition.comment",
@@ -185,21 +185,21 @@
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#c2e095"
+                "foreground": "#ebc288"
             }
         },
         {
             "name": "数字",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#e4bc77"
+                "foreground": "#63c0cd"
             }
         },
         {
             "name": "数学符号 / Math",
             "scope": "support.constant.math",
             "settings": {
-                "foreground": "#e4bc77"
+                "foreground": "#63c0cd"
             }
         },
         {
@@ -225,7 +225,7 @@
                 "constant.character.escape",
             ],
             "settings": {
-                "foreground": "#e4bc77"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -234,7 +234,7 @@
                 "string.regexp", 
             ],
             "settings": {
-                "foreground": "#c2e095"
+                "foreground": "#b8d996"
             }
         },
         {
@@ -289,7 +289,7 @@
             }
         },
         {
-            "name": "关键词 / if for return import export try await",
+            "name": "关键词 / if for new return import export try await",
             "scope": [
                 "keyword",
                 "keyword.operator.logical",
@@ -319,7 +319,7 @@
                 "entity.name.type",
             ],
             "settings": {
-                "foreground": "#e4bc77"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -338,7 +338,7 @@
             "name": "继承的类",
             "scope": "entity.other.inherited-class",
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#b3dd9f"
             }
         },
         {
@@ -362,7 +362,7 @@
                 "variable.readwrite.other.block"
             ],
             "settings": {
-                "foreground": "#C6C7CD"
+                "foreground": "#84b3ff"
             }
         },
         {
@@ -382,7 +382,7 @@
                 "variable.other.object.property"
             ],
             "settings": {
-                "foreground": "#6ebff2"
+                "foreground": "#7cc6f1"
             }
         },
         {
@@ -402,7 +402,7 @@
                 "function.support.core"
             ],
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#b3dd9f"
             }
         },
         {
@@ -412,7 +412,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#b3dd9f"
             }
         },
         {
@@ -423,8 +423,8 @@
                 "parameter.variable"
             ],
             "settings": {
-                "fontStyle": "italic",
-                "foreground": "#C6C7CD"
+                "foreground": "#C6C7CD",
+                "fontStyle": "italic"
             }
         },
         {
@@ -434,14 +434,15 @@
                 "entity.name.tag.class.js"
             ],
             "settings": {
-                "foreground": "#78c2f4"
+                "foreground": "#78c2f4",
+                "fontStyle": "bold"
             }
         },
         {
             "name": "html css 标签属性",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#ebc482"
+                "foreground": "#b3dd9f"
             }
         },
         {
@@ -501,7 +502,7 @@
                 "support.constant.sass"
             ],
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#b3dd9f"
             }
         },
         {
@@ -632,7 +633,7 @@
             "name": "差异: 插入",
             "scope": "markup.inserted",
             "settings": {
-                "foreground": "#9bca9e"
+                "foreground": "#b3dd9f"
             }
         },
         {
