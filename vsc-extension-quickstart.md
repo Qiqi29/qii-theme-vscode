@@ -24,4 +24,5 @@
 * 要与全世界分享您的扩展，请阅读有关发布扩展的 https://code.visualstudio.com/docs。
 
 ## 打包扩展
+安装：npm install -g @vscode/vsce
 运行 `vsce package` 命令进行打包扩展。
