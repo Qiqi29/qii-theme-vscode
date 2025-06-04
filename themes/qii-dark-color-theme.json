@@ -1,15 +1,15 @@
 {
-    "name": "Qii Dark",
+    "name": "Qii Theme Dark",
     "type": "dark",
     "colors": {
         // 基本
-        "foreground": "#E0E1E4",            // 整体前景色
+        "foreground": "#D7D8E2",            // 整体前景色
         "disabledForeground": "#6E6F72",    // 禁用状态前景色
 
         // 编辑器
         "editor.background": "#18191B",                     // 编辑器背景色
         "editorGroup.emptyBackground": "#18191B",           // 空编辑器背景色
-        "editor.foreground": "#C6C7CD",                     // 编辑器前景色
+        "editor.foreground": "#D7D8E2",                     // 编辑器前景色
         "editorGroup.border": "#101011",                    // 编辑器分割线颜色
 
         "editorGroup.dropBackground": "#CDDEFF15",          // 拖动时背景色
@@ -70,7 +70,7 @@
         "activityBar.inactiveForeground": "#6b6b6d",    // 活动栏非活动状态前景色
         "activityBar.border": "#101011",                // 活动栏边框颜色
         "activityBar.activeBorder": "#65bd9c",          // 活动栏指示器边框颜色
-        "activityBarBadge.background": "#3DB086",       // 活动栏通知徽标背景色
+        "activityBarBadge.background": "#65bd9c",       // 活动栏通知徽标背景色
         "activityBarBadge.foreground": "#050505",       // 活动栏通知徽标前景色
 
         // 左侧菜单（资源管理器/搜索/..）
@@ -78,22 +78,22 @@
         "sideBar.border": "#090909",                    // 边框颜色
         "sideBarSectionHeader.background": "#18191B",   // 分组标题背景色
 
+        // 菜单
+        "menu.background": "#202125",           // 菜单背景色
+        "menu.foreground": "#E0E1E4",           // 菜单前景色
+        "menu.border": "#2f3136",               // 菜单边框颜色
+        "menu.selectionBackground": "#65bd9c",  // 菜单选中项背景色
+        "menu.selectionForeground": "#000000",  // 菜单选中项前景色
+        "menu.separatorBackground": "#2f3136",  // 菜单分隔线颜色
+
         // 底部状态栏
         "statusBar.background": "#090909",              // 状态栏背景色
-        "statusBar.foreground": "#909296",              // 状态栏前景色
+        "statusBar.foreground": "#9da1ab",              // 状态栏前景色
         "statusBar.border": "#FFFFFF00",                // 状态栏边框颜色
-        "statusBar.debuggingBackground": "#3DB086",     // 程序调试时背景色
+        "statusBar.debuggingBackground": "#65bd9c",     // 程序调试时背景色
         "statusBar.debuggingForeground": "#050505",     // 程序调试时前景色
         "statusBar.noFolderBackground": "#090909",      // 未打开文件夹背景色
         "statusBar.noFolderForeground": "#E0E1E4",      // 未打开文件夹前景色
-
-        // 菜单
-        "menu.background": "#27282C",           // 菜单背景色
-        "menu.foreground": "#E0E1E4",           // 菜单前景色
-        "menu.border": "#2f3136",               // 菜单边框颜色
-        "menu.selectionBackground": "#3da27d",  // 菜单选中项背景色
-        "menu.selectionForeground": "#FFFFFF",  // 菜单选中项前景色
-        "menu.separatorBackground": "#2f3136",  // 菜单分隔线颜色
 
         // 底部面板
         "panel.background": "#141516",  // 面板背景颜色
@@ -107,53 +107,53 @@
         "dropdown.border": "#101011",       // 下拉列表边框
 
         // 滚动条
-        "scrollbarSlider.background": "#FFFFFF15",          // 滚动条颜色
-        "scrollbarSlider.hoverBackground": "#FFFFFF1A",     // 滚动条悬停颜色
-        "scrollbarSlider.activeBackground": "#FFFFFF20",    // 滚动条点击颜色
+        "scrollbarSlider.background": "#C7D2FF15",          // 滚动条颜色
+        "scrollbarSlider.hoverBackground": "#C7D2FF1A",     // 滚动条悬停颜色
+        "scrollbarSlider.activeBackground": "#C7D2FF20",    // 滚动条点击颜色
         "editorOverviewRuler.border": "#18191B",            // 滚动条边框颜色
-        "scrollbar.shadow": "#10101180",                    // 滚动条阴影
+        "scrollbar.shadow": "#101011c2",                    // 滚动条阴影
 
         // 小地图
         "minimap.background": "#18191BEF",                  // 小地图背景色
-        "minimapSlider.background": "#FFFFFF15",            // 小地图滑块颜色
-        "minimapSlider.hoverBackground": "#FFFFFF1A",       // 小地图滑块悬停颜色
-        "minimapSlider.activeBackground": "#FFFFFF20",      // 小地图滑块点击颜色
+        "minimapSlider.background": "#C7D2FF15",            // 小地图滑块颜色
+        "minimapSlider.hoverBackground": "#C7D2FF1A",       // 小地图滑块悬停颜色
+        "minimapSlider.activeBackground": "#C7D2FF20",      // 小地图滑块点击颜色
         "minimap.findMatchHighlight": "#3da27df0",          // 小地图搜索匹配颜色
         "minimap.selectionHighlight": "#3da27dA0",          // 小地图选中文本背景色
 
         // 按钮
-        "button.background": "#3da27d",         // 按钮背景色
-        "button.hoverBackground": "#338668",    // 按钮悬停背景色
-        "button.border": "#4bbc93",             // 按钮边框颜色
-        "button.foreground": "#FAFAFC",         // 按钮前景色
+        "button.background": "#65bd9c",         // 按钮背景色
+        "button.hoverBackground": "#5bae8f",    // 按钮悬停背景色
+        "button.border": "#65bd9c",             // 按钮边框颜色
+        "button.foreground": "#000000",         // 按钮前景色
 
         // 输入框
-        "input.background": "#1E2024",      // 输入框背景色
-        "input.foreground": "#E0E1E4",      // 输入框前景色
+        "input.background": "#1c1d20",      // 输入框背景色
+        "input.foreground": "#D7D8E2",      // 输入框前景色
         "input.border": "#8490aa30",        // 输入框边框色
 
         // 其他
-        "focusBorder": "#FFFFFF00",         // 焦点元素的边框颜色
+        "focusBorder": "#65bd9c",         // 焦点元素的边框颜色
         "icon.foreground": "#FFFFFFA0",     // 图标的默认颜色
 
         // 终端代码颜色
-        "terminal.foreground": "#b2b4b7",
+        "terminal.foreground": "#D7D8E2",
         "terminal.ansiBlack": "#2d3139",
-        "terminal.ansiBlue": "#84b3ff",
-        "terminal.ansiGreen": "#b8d996",
+        "terminal.ansiBlue": "#84BBff",
+        "terminal.ansiGreen": "#a7e28b",
         "terminal.ansiYellow": "#e2b77e",
         "terminal.ansiCyan": "#73BAC2",
         "terminal.ansiMagenta": "#c589e0",
         "terminal.ansiRed": "#f37a94",
-        "terminal.ansiWhite": "#d7dae0",
+        "terminal.ansiWhite": "#D7D8E2",
         "terminal.ansiBrightBlack": "#7f848e",
-        "terminal.ansiBrightBlue": "#84b3ff",
-        "terminal.ansiBrightGreen": "#b8d996",
+        "terminal.ansiBrightBlue": "#84BBff",
+        "terminal.ansiBrightGreen": "#a7e28b",
         "terminal.ansiBrightYellow": "#e2b77e",
         "terminal.ansiBrightCyan": "#73BAC2",
         "terminal.ansiBrightMagenta": "#c589e0",
         "terminal.ansiBrightRed": "#f37a94",
-        "terminal.ansiBrightWhite": "#d7dae0",
+        "terminal.ansiBrightWhite": "#D7D8E2",
 
         // 括号颜色
         "editorBracketHighlight.foreground1": "#9cceec",
@@ -176,7 +176,7 @@
                 "punctuation.definition.comment",
             ],
             "settings": {
-                "foreground": "#929395"
+                "foreground": "#6f767f",
             }
         },
         {
@@ -186,28 +186,28 @@
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#ebc288"
+                "foreground": "#B9DF98"
             }
         },
         {
             "name": "数字",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
             "name": "数学符号 / Math",
             "scope": "support.constant.math",
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
             "name": "内置常数 / true false null..",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
@@ -217,7 +217,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
@@ -226,7 +226,7 @@
                 "constant.character.escape",
             ],
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -235,7 +235,7 @@
                 "string.regexp", 
             ],
             "settings": {
-                "foreground": "#b8d996"
+                "foreground": "#B2DC9F"
             }
         },
         {
@@ -256,7 +256,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
@@ -272,14 +272,14 @@
                 "meta.brace"
             ],
             "settings": {
-                "foreground": "#989ca6"
+                "foreground": "#989CA6"
             }
         },
         {
             "name": "类型 / const let function class",
             "scope": "storage.type",
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
@@ -308,7 +308,7 @@
             }
         },
         {
-            "name": "存储 / extends",
+            "name": "扩展 / extends",
             "scope": "storage",
             "settings": {
                 "foreground": "#f37a94"
@@ -320,7 +320,14 @@
                 "entity.name.type",
             ],
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#F7CA88"
+            }
+        },
+        {
+            "name": "继承的类",
+            "scope": "entity.other.inherited-class",
+            "settings": {
+                "foreground": "#F7CA88"
             }
         },
         {
@@ -332,14 +339,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#84b3ff"
-            }
-        },
-        {
-            "name": "继承的类",
-            "scope": "entity.other.inherited-class",
-            "settings": {
-                "foreground": "#b3dd9f"
+                "foreground": "#F7CA88"
             }
         },
         {
@@ -348,11 +348,11 @@
                 "variable.other.constant",
             ],
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#84BBff"
             }
         },
         {
-            "name": "变量对象",
+            "name": "调用常量",
             "scope": [
                 "variable.other.object",
                 "variable.other.global",
@@ -363,18 +363,26 @@
                 "variable.readwrite.other.block"
             ],
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#D7D8E2"
             }
         },
         {
             "name": "其他变量",
             "scope": [
                 "variable.other",
+            ],
+            "settings": {
+                "foreground": "#D7D8E2"
+            }
+        },
+        {
+            "name": "其他变量",
+            "scope": [
                 "variable.other.property",
                 "variable.other.block"
             ],
             "settings": {
-                "foreground": "#C6C7CD"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -383,7 +391,7 @@
                 "variable.other.object.property"
             ],
             "settings": {
-                "foreground": "#7cc6f1"
+                "foreground": "#D7D8E2"
             }
         },
         {
@@ -393,7 +401,7 @@
                 "storage.modifier.package"
             ],
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -403,7 +411,7 @@
                 "function.support.core"
             ],
             "settings": {
-                "foreground": "#b3dd9f"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -413,7 +421,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#b3dd9f"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -424,8 +432,27 @@
                 "parameter.variable"
             ],
             "settings": {
-                "foreground": "#C6C7CD",
+                "foreground": "#D7D8E2",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "对象键",
+            "scope": [
+                "meta.tag" 
+            ],
+            "settings": {
+                "foreground": "#D7D8E2"
+            }
+        },
+        {
+            "name": "对象字面量键",
+            "scope": [
+                "meta.object-literal.key.js",
+                "meta.object-literal.key.ts"
+            ],
+            "settings": {
+                "foreground": "#A3A3FF"
             }
         },
         {
@@ -435,7 +462,7 @@
                 "entity.name.tag.class.js"
             ],
             "settings": {
-                "foreground": "#78c2f4",
+                "foreground": "#7cbcf4",
                 "fontStyle": "bold"
             }
         },
@@ -443,27 +470,16 @@
             "name": "html css 标签属性",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#b3dd9f"
+                "foreground": "#A3A3FF"
             }
         },
         {
             "name": "HTML 标签括号",
             "scope": [
                 "punctuation.definition.tag", 
-                "meta.tag"
             ],
             "settings": {
-                "foreground": "#989ca6"
-            }
-        },
-        {
-            "name": "html 标签 ID",
-            "scope": [
-                "entity.name.tag.class",
-                "entity.name.tag.id"
-            ],
-            "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#989CA6"
             }
         },
         {
@@ -475,7 +491,7 @@
                 "support.type.property-name.sass"
             ],
             "settings": {
-                "foreground": "#C6C7CD"
+                "foreground": "#D7D8E2"
             }
         },
         {
@@ -491,7 +507,7 @@
                 "entity.other.attribute-name.pseudo-element.sass"
             ],
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
@@ -503,7 +519,7 @@
                 "support.constant.sass"
             ],
             "settings": {
-                "foreground": "#b3dd9f"
+                "foreground": "#B9DF98"
             }
         },
         {
@@ -515,7 +531,7 @@
                 "variable.sass"
             ],
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#B9DF98"
             }
         },
         {
@@ -527,38 +543,22 @@
                 "variable.sass.string"
             ],
             "settings": {
-                "foreground": "#e0b16a"
+                "foreground": "#E0B16A"
             }
         },
+        
         {
-            "name": "CSS单位（好像没用）",
-            "scope": [
-                "unit.css",
-                "unit.scss",
-                "unit.less",
-                "unit.sass"
-            ],
+            "name": "JSON 键",
+            "scope": "support.type.property-name.json",
             "settings": {
-                "foreground": "#f37a94"
-            }
-        },
-        {
-            "name": "CSS函数",
-            "scope": [
-                "function.css",
-                "function.scss",
-                "function.less",
-                "function.sass"
-            ],
-            "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#84BBff"
             }
         },
         {
             "name": "库常数 JSON",
             "scope": "support.constant",
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -568,14 +568,14 @@
                 "support.variable"
             ],
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#84BBff"
             }
         },
         {
-            "name": "Json",
+            "name": "Json 字段",
             "scope": "support.dictionary.json",
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -589,28 +589,21 @@
             "name": "无效",
             "scope": "invalid",
             "settings": {
-                "foreground": "#F8F8F0"
+                "foreground": "#D7D8E2"
             }
         },
         {
             "name": "无效已弃用",
             "scope": "invalid.deprecated",
             "settings": {
-                "foreground": "#F8F8F0"
-            }
-        },
-        {
-            "name": "JSON 键",
-            "scope": "support.type.property-name.json",
-            "settings": {
-                "foreground": "#7ac5cd"
+                "foreground": "#D7D8E2"
             }
         },
         {
             "name": "链接",
             "scope": "string.detected-link",
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -620,7 +613,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#75715E"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -634,37 +627,18 @@
             "name": "差异: 插入",
             "scope": "markup.inserted",
             "settings": {
-                "foreground": "#b3dd9f"
+                "foreground": "#B9DF98"
             }
         },
         {
             "name": "差异: 变化",
             "scope": "markup.changed",
             "settings": {
-                "foreground": "#e0b16a"
+                "foreground": "#E0B16A"
             }
         },
         {
-            "scope": "constant.numeric.line-number.find-in-files - match",
-            "settings": {
-                "foreground": "#56b6c2A0"
-            }
-        },
-        {
-            "scope": "entity.name.filename.find-in-files",
-            "settings": {
-                "foreground": "#e0b16a"
-            }
-        },
-        {
-            "name": "Markdown: 强调",
-            "scope": "markup.italic, markup.italic.markdown",
-            "settings": {
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Markdown: 标点符号",
+            "name": "Markdown: 标点符号 / #",
             "scope": [
                 "punctuation.definition.italic.markdown",
                 "punctuation.definition.bold.markdown",
@@ -685,7 +659,7 @@
             "name": "Markdown: 链接",
             "scope": "markup.underline.link.markdown",
             "settings": {
-                "foreground": "#84b3ff"
+                "foreground": "#84BBff"
             }
         },
         {
@@ -700,14 +674,14 @@
             "scope": "markup.heading.markdown",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#75a8f9"
+                "foreground": "#84BBff"
             }
         },
         {
             "name": "Markdown: 引用",
             "scope": "markup.quote.markdown",
             "settings": {
-                "foreground": "#acc382"
+                "foreground": "#9d9fa5"
             }
         },
         {
@@ -725,7 +699,7 @@
                 "markup.raw.block.markdown"
             ],
             "settings": {
-                "foreground": "#63c0cd"
+                "foreground": "#79d2de"
             }
         },
         {
@@ -733,8 +707,8 @@
             "scope": "punctuation.definition.list_item.markdown",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#ffffff"
+                "foreground": "#84BBff"
             }
-        }
+        },
     ]
 }
