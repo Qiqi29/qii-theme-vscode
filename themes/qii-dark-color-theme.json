@@ -3,8 +3,10 @@
     "type": "dark",
     "colors": {
         // 基本
-        "foreground": "#D7D8E2",            // 整体前景色
+        "foreground": "#CACBD4",            // 整体前景色
         "disabledForeground": "#6E6F72",    // 禁用状态前景色
+        "focusBorder": "#65bd9c",           // 焦点元素边框颜色
+        "icon.foreground": "#FFFFFFA0",     // 图标的默认颜色
 
         // 编辑器
         "editor.background": "#18191B",                     // 编辑器背景色
@@ -12,12 +14,12 @@
         "editor.foreground": "#CACBD4",                     // 编辑器前景色
         "editorGroup.border": "#101011",                    // 编辑器分割线颜色
 
-        "editorGroup.dropBackground": "#CDDEFF15",          // 拖动时背景色
+        "editorGroup.dropBackground": "#cddeff15",          // 拖动时背景色
         "editorCursor.foreground": "#65bd9c",               // 光标颜色
         "editorWhitespace.foreground": "#376e5f",           // 空白字符颜色
         "editorIndentGuide.background1": "#FFFFFF0C",       // 缩进参考线颜色
         "editorLineNumber.foreground": "#57585c",           // 行号颜色
-        "editorLineNumber.activeForeground": "#E0E1E4",     // 当前行号颜色
+        "editorLineNumber.activeForeground": "#CACBD4",     // 当前行号颜色
         "editor.selectionBackground": "#23483c",            // 选中内容背景色
         "editor.lineHighlightBackground": "#27282D",        // 光标所在行高亮色
         "editor.selectionHighlightBackground": "#FFFFFF15", // 与所选内容相同的背景色
@@ -28,14 +30,14 @@
         "editor.wordHighlightBorder": "#FFFFFF80",          // 单词突出显示边框色
         "editorHoverWidget.background": "#090909",          // 悬停提示背景色
         "editorHoverWidget.border": "#363739",              // 悬停提示边框色
-        "editorWidget.background": "#27282C",               // 组件背景色
-        "editorSuggestWidget.background": "#27282C",        // 建议组件背景色
+        "editorWidget.background": "#202125",               // 组件/搜索菜单背景色
+        "editorSuggestWidget.background": "#202125",        // 建议组件背景色
         "editor.foldBackground": "#27282D80",               // 折叠行背景色
         "sash.hoverBorder": "#65bd9caa",                    // 拖动编辑器的反馈颜色
 
         // 标题栏
         "titleBar.activeBackground": "#090909",     // 背景色
-        "titleBar.activeForeground": "#C8C9D0",     // 前景色
+        "titleBar.activeForeground": "#CACBD4",     // 前景色
         "titleBar.inactiveBackground": "#090909",   // 非活动背景色
         "titleBar.inactiveForeground": "#6E6F72",   // 非活动前景色
         "titleBar.border": "#FFFFFF00",             // 分割线颜色
@@ -50,17 +52,17 @@
         "tab.activeBorder": "#3DB086",                  // 选中状态下边框颜色
 
         // 列表和树
-        "list.activeSelectionBackground": "#25272c",    // 已选项背景色
-        "list.inactiveSelectionBackground": "#25272c",  // 已选项非活动背景色
-        "list.activeSelectionForeground": "#E0E1E4",    // 已选项前景色
-        "list.inactiveSelectionForeground": "#E0E1E4",  // 已选项非活动前景色
-        "list.dropBackground": "#25272c",               // 拖拽背景色
-        "list.focusBackground": "#25272c",              // 焦点项背景色
-        "list.focusForeground": "#E0E1E4",              // 焦点项前景色
+        "list.activeSelectionBackground": "#b5c5e620",  // 已选项背景色
+        "list.inactiveSelectionBackground": "#b5c5e620",// 已选项非活动背景色
+        "list.activeSelectionForeground": "#FFFFFF",    // 已选项前景色
+        "list.inactiveSelectionForeground": "#FFFFFF",  // 已选项非活动前景色
+        "list.dropBackground": "#b5c5e620",             // 拖拽背景色
+        "list.focusBackground": "#b5c5e620",            // 焦点项背景色
+        "list.focusForeground": "#FFFFFF",              // 焦点项前景色
         "list.focusOutline": "#424650",                 // 焦点项边框色
-        "list.hoverBackground": "#222428",              // 鼠标悬停背景色
-        "list.hoverForeground": "#E0E1E4",              // 鼠标悬停前景色
-        "list.highlightForeground": "#E0E1E4",          // 搜索匹配高亮色
+        "list.hoverBackground": "#b5c5e615",            // 鼠标悬停背景色
+        "list.hoverForeground": "#FFFFFF",              // 鼠标悬停前景色
+        "list.highlightForeground": "#FFFFFF",          // 搜索匹配高亮色
         "tree.indentGuidesStroke": "#FFFFFF00",         // 缩进线颜色
 
         // 左侧活动栏
@@ -80,7 +82,7 @@
 
         // 菜单
         "menu.background": "#202125",           // 菜单背景色
-        "menu.foreground": "#E0E1E4",           // 菜单前景色
+        "menu.foreground": "#CACBD4",           // 菜单前景色
         "menu.border": "#2f3136",               // 菜单边框颜色
         "menu.selectionBackground": "#65bd9c",  // 菜单选中项背景色
         "menu.selectionForeground": "#000000",  // 菜单选中项前景色
@@ -93,18 +95,18 @@
         "statusBar.debuggingBackground": "#65bd9c",     // 程序调试时背景色
         "statusBar.debuggingForeground": "#050505",     // 程序调试时前景色
         "statusBar.noFolderBackground": "#090909",      // 未打开文件夹背景色
-        "statusBar.noFolderForeground": "#E0E1E4",      // 未打开文件夹前景色
+        "statusBar.noFolderForeground": "#CACBD4",      // 未打开文件夹前景色
 
         // 底部面板
         "panel.background": "#141516",  // 面板背景颜色
         "panel.border": "#090909",      // 面板边框颜色
         "badge.background": "#090909",  // 徽章背景色
-        "badge.foreground": "#E0E1E4",  // 徽章前景色
+        "badge.foreground": "#FFFFFF",  // 徽章前景色
 
         // 下拉列表
-        "dropdown.background": "#27282C",   // 下拉列表背景色
-        "dropdown.foreground": "#E0E1E4",   // 下拉列表前景色
-        "dropdown.border": "#101011",       // 下拉列表边框
+        "dropdown.background": "#202125",   // 下拉列表背景色
+        "dropdown.foreground": "#CACBD4",   // 下拉列表前景色
+        "dropdown.border": "#2f3136",       // 下拉列表边框
 
         // 滚动条
         "scrollbarSlider.background": "#C7D2FF15",          // 滚动条颜色
@@ -132,17 +134,13 @@
         "input.foreground": "#D7D8E2",      // 输入框前景色
         "input.border": "#8490aa30",        // 输入框边框色
 
-        // 其他
-        "focusBorder": "#65bd9c",         // 焦点元素的边框颜色
-        "icon.foreground": "#FFFFFFA0",     // 图标的默认颜色
-
         // 终端代码颜色
         "terminal.foreground": "#CACBD4",
         "terminal.ansiBlack": "#2d3139",
         "terminal.ansiBlue": "#84BBff",
         "terminal.ansiGreen": "#a7e28b",
         "terminal.ansiYellow": "#e2b77e",
-        "terminal.ansiCyan": "#73BAC2",
+        "terminal.ansiCyan": "#75cad3",
         "terminal.ansiMagenta": "#c589e0",
         "terminal.ansiRed": "#E68096",
         "terminal.ansiWhite": "#CACBD4",
@@ -150,7 +148,7 @@
         "terminal.ansiBrightBlue": "#84BBff",
         "terminal.ansiBrightGreen": "#a7e28b",
         "terminal.ansiBrightYellow": "#e2b77e",
-        "terminal.ansiBrightCyan": "#73BAC2",
+        "terminal.ansiBrightCyan": "#75cad3",
         "terminal.ansiBrightMagenta": "#c589e0",
         "terminal.ansiBrightRed": "#E68096",
         "terminal.ansiBrightWhite": "#CACBD4",
