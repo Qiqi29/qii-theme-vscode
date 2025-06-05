@@ -2,9 +2,13 @@
     "name": "qii-theme",
     "displayName": "Qii Theme",
     "description": "一个 VSCode 主题。",
-    "version": "1.4.6",
+    "version": "1.4.7",
     "publisher": "qiqi29",
     "icon": "/assets/logo.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Qiqi29/qii-theme-vscode.git"
+    },
     "engines": {
         "vscode": "^1.88.0"
     },
