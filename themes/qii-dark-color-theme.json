@@ -552,6 +552,15 @@
                 "foreground": "#E0B16A"
             }
         },
+        {
+            "name": "CSS数值单位 / rpx",
+            "scope": [
+                "meta.property-value.css",
+            ],
+            "settings": {
+                "foreground": "#E394DC"
+            }
+        },
         
         {
             "name": "JSON 键",
