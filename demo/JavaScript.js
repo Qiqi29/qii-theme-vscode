@@ -1,21 +1,24 @@
 import { func } from 'package'
 const https = require('https')
 
-// 注释
+// 这是一段注释
 
 /**
- * 注释
- * @author You
+ * 这是文档注释
+ * @author Your Name
  */
 
 
-let number = func(1)
-
+// 变量与常量
+var numebr = 10;
+let text = "Hello";
+const PI = 3.14;
+const OBJ = { key: 'value' };
 Math.PI
-Math.E
 
 true || false || null || undefined
 
+// 对象
 const object = {
     title: 'Hello',
     count: 18
@@ -26,22 +29,24 @@ console.log(object.count)
 
 // 判断语句
 if (number == 1) {
-	
+	console.log(`Hello World ${number}`)
 } else if (number == 2) {
-	
+	console.log('Hello World ' + number)
 } else {
-	
+    console.log('Hello World')
 }
 
 // 循环
 for(let i = 0; i < 5; i++) {
-
+    console.log(`index ${i}`)
 }
 
 // 字符串
 let string = 'Hello \n World \t 你好世界。'
-string = `你好 World`
-string = "你好 World"
+string = `你好`
+string += " World"
+const str = `Hello ${string}`;
+
 
 // 正则
 const validFormat1 = /\d[a-z]\.*\d{4}/i
@@ -55,8 +60,6 @@ export function greet(name, age = 18) {
 }
 greet('Foo')
 
-
-
 // 类
 class Dog extends Animal {
     constructor(name) {
@@ -68,22 +71,6 @@ class Dog extends Animal {
 }
 
 export default Dog
-
-
-// 单行注释
-/* 多行注释 */
-
-// 变量与常量
-var oldVar = 10;
-let mutable = "Hello";
-const PI = 3.14;
-const OBJ = { key: 'value' };
-
-// 字符串
-const str1 = 'Single quote';
-const str2 = "Double quote";
-const template = `Template: ${str1} ${1+2}`;
-const concat = str1 + str2;
 
 // 函数
 function classicFunction(a, b = 0) {

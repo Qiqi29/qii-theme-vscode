@@ -137,7 +137,7 @@
         // 终端代码颜色
         "terminal.foreground": "#CACBD4",
         "terminal.ansiBlack": "#2d3139",
-        "terminal.ansiBlue": "#84BBff",
+        "terminal.ansiBlue": "#82b8fa",
         "terminal.ansiGreen": "#a7e28b",
         "terminal.ansiYellow": "#e2b77e",
         "terminal.ansiCyan": "#75cad3",
@@ -145,7 +145,7 @@
         "terminal.ansiRed": "#E68096",
         "terminal.ansiWhite": "#CACBD4",
         "terminal.ansiBrightBlack": "#7f848e",
-        "terminal.ansiBrightBlue": "#84BBff",
+        "terminal.ansiBrightBlue": "#82b8fa",
         "terminal.ansiBrightGreen": "#a7e28b",
         "terminal.ansiBrightYellow": "#e2b77e",
         "terminal.ansiBrightCyan": "#75cad3",
@@ -174,7 +174,7 @@
                 "punctuation.definition.comment",
             ],
             "settings": {
-                "foreground": "#6f767f",
+                "foreground": "#7b7d84",
             }
         },
         {
@@ -289,7 +289,7 @@
                 "variable.other.constant",
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -323,7 +323,7 @@
                 "variable.other.block"
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -351,7 +351,7 @@
                 "constant.character.escape",
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -407,7 +407,7 @@
                 "storage.modifier.package"
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -417,7 +417,7 @@
                 "function.support.core"
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -458,7 +458,7 @@
                 "meta.object-literal.key.ts"
             ],
             "settings": {
-                "foreground": "#b5a3ff"
+                "foreground": "#e1a694"
             }
         },
         {
@@ -476,7 +476,7 @@
             "name": "html 标签属性 / CSS 选择器",
             "scope": "entity.other.attribute-name",
             "settings": {
-                "foreground": "#b5a3ff"
+                "foreground": "#bda3ff"
             }
         },
         {
@@ -557,14 +557,14 @@
             "name": "JSON 键",
             "scope": "support.type.property-name.json",
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
             "name": "库常数 JSON",
             "scope": "support.constant",
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -574,14 +574,14 @@
                 "support.variable"
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
             "name": "Json 字段",
             "scope": "support.dictionary.json",
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -609,7 +609,7 @@
             "name": "链接",
             "scope": "string.detected-link",
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -619,7 +619,7 @@
                 "meta.diff.header"
             ],
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -665,7 +665,7 @@
             "name": "Markdown: 链接",
             "scope": "markup.underline.link.markdown",
             "settings": {
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -680,7 +680,7 @@
             "scope": "markup.heading.markdown",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
         {
@@ -713,7 +713,7 @@
             "scope": "punctuation.definition.list_item.markdown",
             "settings": {
                 "fontStyle": "bold",
-                "foreground": "#84BBff"
+                "foreground": "#82b8fa"
             }
         },
     ]
