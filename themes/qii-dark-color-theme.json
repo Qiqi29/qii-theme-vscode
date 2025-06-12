@@ -462,15 +462,6 @@
             }
         },
         {
-            "name": "",
-            "scope": [
-                "comment",
-            ],
-            "settings": {
-                "foreground": "#CACBD4"
-            }
-        },
-        {
             "name": "html 标签名称",
             "scope": [
                 "entity.name.tag",
