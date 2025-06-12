@@ -261,14 +261,14 @@
                 "entity.name.type",
             ],
             "settings": {
-                "foreground": "#E4C89D"
+                "foreground": "#E6C28D"
             }
         },
         {
             "name": "继承的类",
             "scope": "entity.other.inherited-class",
             "settings": {
-                "foreground": "#E4C89D"
+                "foreground": "#E6C28D"
             }
         },
         {
@@ -280,7 +280,7 @@
                 "support.class"
             ],
             "settings": {
-                "foreground": "#E4C89D"
+                "foreground": "#E6C28D"
             }
         },
         {
@@ -427,7 +427,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#E4C89D"
+                "foreground": "#e6c28d"
             }
         },
         {
@@ -458,7 +458,16 @@
                 "meta.object-literal.key.ts"
             ],
             "settings": {
-                "foreground": "#e1a694"
+                "foreground": "#CACBD4"
+            }
+        },
+        {
+            "name": "",
+            "scope": [
+                "comment",
+            ],
+            "settings": {
+                "foreground": "#CACBD4"
             }
         },
         {
