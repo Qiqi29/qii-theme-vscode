@@ -84,7 +84,7 @@
         "menu.background": "#202125",           // 菜单背景色
         "menu.foreground": "#CACBD4",           // 菜单前景色
         "menu.border": "#2f3136",               // 菜单边框颜色
-        "menu.selectionBackground": "#65BD9CC0",// 菜单选中项背景色
+        "menu.selectionBackground": "#65BD9C",  // 菜单选中项背景色
         "menu.selectionForeground": "#000000",  // 菜单选中项前景色
         "menu.separatorBackground": "#2f3136",  // 菜单分隔线颜色
 
@@ -126,7 +126,7 @@
         // 按钮
         "button.background": "#65BD9C",         // 按钮背景色
         "button.hoverBackground": "#5bae8f",    // 按钮悬停背景色
-        "button.border": "#65BD9C",             // 按钮边框颜色
+        "button.border": "#64caa5",             // 按钮边框颜色
         "button.foreground": "#000000",         // 按钮前景色
 
         // 输入框
