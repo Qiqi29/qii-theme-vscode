@@ -6,7 +6,7 @@
 
 ## 主题搭配
 - 字体系列：`JetBrains Mono NL, 等距更纱黑体 SC`
-- 文件图标扩展：`Material Icon Theme`
+- 文件图标扩展：`Symbols`
 - 软件图标扩展：`Fluent Icons`
 
 
