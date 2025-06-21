@@ -16,8 +16,8 @@
 
         "editorGroup.dropBackground": "#75d3b150",          // 拖动时背景色
         "editorCursor.foreground": "#65bd9c",               // 光标颜色
-        "editorWhitespace.foreground": "#c4c9cc",           // 空白字符颜色
-        "editorIndentGuide.background1": "#3245651A",       // 缩进参考线颜色
+        "editorWhitespace.foreground": "#65bd9cC0",         // 空白字符颜色
+        "editorIndentGuide.background1": "#32456510",       // 缩进参考线颜色
         "editorLineNumber.foreground": "#bcc0c4",           // 行号颜色
         "editorLineNumber.activeForeground": "#2f3032",     // 当前行号颜色
         "editor.selectionBackground": "#d7eae4",            // 选中内容背景色
@@ -40,7 +40,7 @@
         "titleBar.activeForeground": "#5D5F62",     // 前景色
         "titleBar.inactiveBackground": "#EAEAEB",   // 非活动背景色
         "titleBar.inactiveForeground": "#5D5F6280", // 非活动前景色
-        "titleBar.border": "#FFFFFF00",             // 分割线颜色
+        "titleBar.border": "#32456514",             // 分割线颜色
 
         // 选项卡列表
         "editorGroupHeader.tabsBackground": "#FAFAFA",  // 背景色
@@ -58,7 +58,7 @@
         "list.inactiveSelectionForeground": "#101012",  // 已选项非活动前景色
         "list.dropBackground": "#1c293c14",             // 拖拽背景色
         "list.focusBackground": "#1c293c14",            // 焦点项背景色
-        "list.focusForeground": "#FFFFFF",              // 焦点项前景色
+        "list.focusForeground": "#101012",              // 焦点项前景色
         "list.focusOutline": "#65bd9c",                 // 焦点项边框色
         "list.hoverBackground": "#1c293c14",            // 鼠标悬停背景色
         "list.hoverForeground": "#101012",              // 鼠标悬停前景色
@@ -91,7 +91,7 @@
         // 底部状态栏
         "statusBar.background": "#EAEAEB",              // 状态栏背景色
         "statusBar.foreground": "#636569",              // 状态栏前景色
-        "statusBar.border": "#FFFFFF00",                // 状态栏边框颜色
+        "statusBar.border": "#32456514",                // 状态栏边框颜色
         "statusBar.debuggingBackground": "#e2f6e6",     // 程序调试时背景色
         "statusBar.debuggingForeground": "#303032",     // 程序调试时前景色
         "statusBar.noFolderBackground": "#EAEAEB",      // 未打开文件夹背景色
@@ -138,17 +138,17 @@
         "terminal.foreground": "#5D5F62",
         "terminal.ansiBlack": "#2d3139",
         "terminal.ansiBlue": "#2f86f0",
-        "terminal.ansiGreen": "#58AA46",
+        "terminal.ansiGreen": "#4ca438",
         "terminal.ansiYellow": "#E0B16A",
-        "terminal.ansiCyan": "#24B0B0",
+        "terminal.ansiCyan": "#0da6a6",
         "terminal.ansiMagenta": "#c82fbb",
         "terminal.ansiRed": "#E1496A",
         "terminal.ansiWhite": "#5D5F62",
         "terminal.ansiBrightBlack": "#7f848e",
         "terminal.ansiBrightBlue": "#2f86f0",
-        "terminal.ansiBrightGreen": "#58AA46",
+        "terminal.ansiBrightGreen": "#4ca438",
         "terminal.ansiBrightYellow": "#E0B16A",
-        "terminal.ansiBrightCyan": "#24B0B0",
+        "terminal.ansiBrightCyan": "#0da6a6",
         "terminal.ansiBrightMagenta": "#c82fbb",
         "terminal.ansiBrightRed": "#E1496A",
         "terminal.ansiBrightWhite": "#5D5F62",
@@ -184,35 +184,35 @@
                 "string.quoted"
             ],
             "settings": {
-                "foreground": "#58AA46"
+                "foreground": "#4ca438"
             }
         },
         {
             "name": "数字",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#24b0b0"
+                "foreground": "#0da6a6"
             }
         },
         {
             "name": "数学符号 / Math",
             "scope": "support.constant.math",
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
             "name": "类型 / const let function class",
             "scope": "storage.type",
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
             "name": "内置常数 / true false null..",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
@@ -342,7 +342,7 @@
                 "constant.other"
             ],
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
@@ -360,7 +360,7 @@
                 "string.regexp", 
             ],
             "settings": {
-                "foreground": "#58AA46"
+                "foreground": "#4ca438"
             }
         },
         {
@@ -381,7 +381,7 @@
                 "punctuation.section.embedded"
             ],
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
@@ -458,7 +458,7 @@
                 "meta.object-literal.key.ts"
             ],
             "settings": {
-                "foreground": "#cd6647"
+                "foreground": "#5D5F62"
             }
         },
         {
@@ -468,7 +468,7 @@
                 "entity.name.tag.class.js"
             ],
             "settings": {
-                "foreground": "#1c90f5",
+                "foreground": "#43a3f8",
                 "fontStyle": "bold"
             }
         },
@@ -513,7 +513,7 @@
                 "entity.other.attribute-name.pseudo-element.sass"
             ],
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
@@ -525,7 +525,7 @@
                 "support.constant.sass"
             ],
             "settings": {
-                "foreground": "#58AA46"
+                "foreground": "#4ca438"
             }
         },
         {
@@ -537,7 +537,7 @@
                 "variable.sass"
             ],
             "settings": {
-                "foreground": "#58AA46"
+                "foreground": "#4ca438"
             }
         },
         {
@@ -642,7 +642,7 @@
             "name": "差异: 插入",
             "scope": "markup.inserted",
             "settings": {
-                "foreground": "#58AA46"
+                "foreground": "#4ca438"
             }
         },
         {
@@ -714,7 +714,7 @@
                 "markup.raw.block.markdown"
             ],
             "settings": {
-                "foreground": "#24B0B0"
+                "foreground": "#0da6a6"
             }
         },
         {
