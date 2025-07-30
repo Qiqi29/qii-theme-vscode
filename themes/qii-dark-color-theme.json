@@ -40,7 +40,7 @@
         "titleBar.activeForeground": "#CACBD4",     // 前景色
         "titleBar.inactiveBackground": "#090909",   // 非活动背景色
         "titleBar.inactiveForeground": "#6E6F72",   // 非活动前景色
-        "titleBar.border": "#101011",             // 分割线颜色
+        "titleBar.border": "#090909",             // 分割线颜色
 
         // 文件选项卡列表
         "editorGroupHeader.tabsBackground": "#18191B",  // 背景色
@@ -91,7 +91,7 @@
         // 底部状态栏
         "statusBar.background": "#090909",              // 状态栏背景色
         "statusBar.foreground": "#9da1ab",              // 状态栏前景色
-        "statusBar.border": "#101011",                // 状态栏边框颜色
+        "statusBar.border": "#090909",                // 状态栏边框颜色
         "statusBar.debuggingBackground": "#65BD9C",     // 程序调试时背景色
         "statusBar.debuggingForeground": "#050505",     // 程序调试时前景色
         "statusBar.noFolderBackground": "#090909",      // 未打开文件夹背景色
