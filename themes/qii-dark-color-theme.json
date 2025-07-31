@@ -70,7 +70,7 @@
         "activityBar.activeBackground": "#090909",      // 活动栏选中背景色
         "activityBar.foreground": "#E0E1E4",            // 活动栏前景色
         "activityBar.inactiveForeground": "#6b6b6d",    // 活动栏非活动状态前景色
-        "activityBar.border": "#101011",                // 活动栏边框颜色
+        "activityBar.border": "#090909",                // 活动栏边框颜色
         "activityBar.activeBorder": "#65BD9C",          // 活动栏指示器边框颜色
         "activityBarBadge.background": "#65BD9C",       // 活动栏通知徽标背景色
         "activityBarBadge.foreground": "#050505",       // 活动栏通知徽标前景色
