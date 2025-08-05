@@ -2,7 +2,7 @@
     "name": "qii-theme",
     "displayName": "Qii Theme",
     "description": "一个 VSCode 主题。",
-    "version": "1.5.6",
+    "version": "1.6.0",
     "publisher": "qiqi29",
     "icon": "/assets/logo.png",
     "repository": {
@@ -26,6 +26,11 @@
                 "label": "Qii Theme Dark",
                 "uiTheme": "vs-dark",
                 "path": "./themes/qii-dark-color-theme.json"
+            },
+            {
+                "label": "Qii Theme Dark Blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/qii-dark-blue-color-theme.json"
             },
             {
                 "label": "Qii Theme Light",
